@@ -39,6 +39,7 @@ module.exports = function(config, dirs) {
 
 
 
+
   /********************
     Sprites
   *********************/
@@ -103,7 +104,7 @@ module.exports = function(config, dirs) {
   // compMain.filename = 'script.js';
 
   //main JS: add prioritized files
-  // compMain.priority.vendor = ['carousel.js'];
+  compMain.priority.vendor = ['jquery-2.1.4.js', 'bootstrap.min.js', 'jquery.themepunch.tools.min.js', 'jquery.themepunch.revolution.min.js', 'jquery.easing.min.js', 'owl.carousel.min.js', 'jquery-countTo.js', 'jquery.appear.js', 'jquery.circliful.js', 'jquery.mixitup.min.js', 'wow.min.js', 'jquery.parallax-1.1.3.js', 'jquery.fancybox.js', 'jquery.fancybox-thumbs.js', 'jquery.fancybox-media.js', 'jPushMenu.js', 'functions.js'];
   // compMain.priority.app = ['core.js', 'app/init.js'];
 
   //add a html5shiv comp (add a dependency in in your bower.json file first)
@@ -169,10 +170,10 @@ module.exports = function(config, dirs) {
   *********************/
 
   //watch and copy contents of "php" dir from src to dist
-  /*
+  
   config.customDirs.items.push({
-    name: 'php views',  //optional, displayed in the console during watch
-    src: dirs.src.main + 'php/**' + '/*.php',
+    name: 'php scripts',  //optional, displayed in the console during watch
+    src: dirs.vendor + 'php/**' + '/*.php',
     dest: dirs.dist.main + 'php/',  //set to null to just watch the dir without copying (e.g. external backend views)
     inject: {
       //an object { dirInfo } (with this config) available as this.taskData from within inject functions
@@ -188,7 +189,26 @@ module.exports = function(config, dirs) {
       clean: true
     }
   });
-*/
+
+  config.customDirs.items.push({
+    name: 'external styles',  //optional, displayed in the console during watch
+    src: dirs.vendor + 'styles/**' + '/*.css',
+    dest: dirs.dist.styles,  //set to null to just watch the dir without copying (e.g. external backend views)
+    inject: {
+      //an object { dirInfo } (with this config) available as this.taskData from within inject functions
+      src: true,   //function must return: a stream (if canceled) or a glob array passed to the src
+      limit: true, //gulp-changed plugin
+      dest: true,
+
+      //watch task, receives undefined and { id, dirInfo } with id and definition as a second parameter
+      watch: true,
+
+      //clean task, receives current glob to delete (see the clean task injector docs) and { dirInfo } with definition object as a second parameter
+      //not needed to disable if "dest" is null
+      clean: true
+    }
+  });
+
 
 
 

@@ -9,6 +9,7 @@ module.exports = function(dirs, mode) {
     case 'main':
       //change src directory to source_dir
       // dirs.src.main = dirs.app + 'source_dir/';
+      
 
       //change dist directory to "../public_html" (remember to normalize parent-related paths)
       // dirs.dist.main = path.normalize(dirs.app + '../public_html/');
@@ -18,9 +19,10 @@ module.exports = function(dirs, mode) {
     case 'sub':
       //change src images subdirectory from "img" to "images"
       // dirs.src.img = dirs.src.main + 'images/';
+      dirs.dist.fonts = dirs.dist.main + 'fonts/';
 
       //change dist JS subdirectory from "js" to "scripts"
       // dirs.dist.js = dirs.dist.main + 'scripts/';
       break;
   }
-}
+};
