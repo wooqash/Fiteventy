@@ -1,1 +1,366 @@
 //$color-lead: #000;
+$white: #ffffff;
+$black: #000000;
+//Fitevent1
+$mantis: #6DBF58;
+$cyber-grape: #5B4D75;
+$cadet-blue: #4F9FA0;
+$teal-deer: #97DCA9;
+$tea-green: #D1FFAA;
+//Fitevent2
+$mantis: #7BC950;
+$pastel-green: #7CE577;
+$aquamarine: #9CFFD9;
+$magic-mint: #B6EFD4;
+$pale-cerulean: #A0CCDA;
+//Fitevent3
+$dark-gray: #AAAAAA;
+$gray: #BBBBBB;
+$pastel-gray: #CCCCCC;
+$gainboro: #DDDDDD;
+$isabelline: #EEEEEE;
+//Fitevent4
+$rich-black: #071013;
+$ball-blue: #23B5D3;
+$moonstone-blue: #75ABBC;
+$wild-blue-yonder: #A2AEBB;
+$platinum: #DFE0E2;
+//Fitevent5
+$pale-robin-egg-blue: #9DD9D2;
+$moonstone-blue: #79BCB8;
+$medium-aquamarine: #5EC2B7;
+$keppel: #2CA6A4;
+$keepel-light: #3AA7A3;
+//Fitevent6
+$forest-green: #157F1F;
+$medium-sea-green: #4CB963;
+$magic-mint: #A0EADE;
+$dark-electric-blue: #5C6784;
+$yankees-blue: #1D263B;
+//Fitevent7
+$smoky-black: #08090A;
+$quick-silver: #A7A2A9;
+$cultured: #F4F7F5;
+$davys-grey: #575A5E;
+$rasin-black: #222823;
+//Fitevent8
+$metallic-seaweed: #087E8B;
+$pastel-red: #FF5A5F;
+$black-olive: #3C3C3C;
+$cultured: #F5F5F5;
+$opera-mauve: #C1839F;
+//Fitevent10
+$blue-sapphire: rgba(14, 94, 135, 1);
+$blue: rgba(0, 84, 255, 1);
+$lemon-glacier: rgba(252, 255, 0, 1);
+$napier-green: rgba(51, 166, 0, 1);
+$peridot: rgba(227, 223, 0, 1);
+//Fitevent11
+$vivid-malachite: rgba(22, 212, 34, 1);
+$picton-blue: rgba(65, 176, 255, 1);
+$maximum-yellow: rgba(243, 247, 34, 1);
+$sunburnt-cyclops: rgba(255, 68, 75, 1);
+$maastricht-blue: rgba(2, 24, 43, 1);
+$royal-blue: #012167;
+$orange: #FF570A;
+
+
+//-----------------------------
+//
+//Default colors
+//
+// $green: #82b440;
+// $green_light: rgba(130, 180, 64, 0.65);
+// $blue: #07aaa5;
+// $dark_grey: #969696;
+
+// $body-color: #222222;
+// $main-slider-color: #ffffff;
+
+// //buttons
+// $btn-green-bg-color: #82B440;
+// $btn-blue-bg-color: #07AAA5;
+
+// $bounce-white-color: #1b1d1f;
+// $bounce-top-bg-color: #07AAA5;
+// $bounce-top-border-color: #07AAA5;
+// $bounce-top-color: #ffffff;
+
+// $bounce-green-bg-color: #82B440;
+// $bounce-green-border-color: #82B440;
+// $bounce-green-color: #ffffff;
+
+// $bounce-white-bg-color: #ffffff;
+// $bounce-white-border-color: #ffffff;
+// $bounce-white-color: #1b1d1f;
+
+// //top navigation
+// $nav-bg-color: #ffffff;
+// $nav-affix-bg-color: #ffffff;
+// $nav-mobile-bg-color: #1b1d1f;
+// $nav-shadow-color: rgba(#576164, 0.35);
+
+
+// $menu-link-color: #ffffff; 
+// $menu-affix-link-color: #222222;
+// $menu-link-active-color: #07AAA5;
+// $menu-link-active-border-color: #82b440;
+// $menu-link-hover-color: #07AAA5;
+
+// $parallax-color: #ffffff;
+// $parallax-image: "../img/paralax-index5.jpg";
+
+// $thinker-overlay-bg-color: rgba(7,170,165,.75);
+
+// //about
+// $about-color1: #07AAA5;
+// $about-hover-color1: #07AAA5;
+// $about-color2: #99D8CC;
+// $about-hover-color2: #99D8CC;
+// $about-color3: #EC768C;
+// $about-hover-color3: #EC768C;
+// $about-color4: #C183D6;
+// $about-hover-color4: #C183D6;
+// $about-color5: #31AAE1;
+// $about-hover-color5: #31AAE1;
+// $about-color6: #82B440;
+// $about-hover-color6: #82B440;
+// $about-title-color: #000000;
+
+// //list
+// $list-color: #1b1d1f;
+// $list-mark-color: #82B440;
+
+// //go button
+// $go-top-bg-color: #82b440;
+// $go-top-hover-bg-color: #07AAA5;
+// $go-top-color: #ffffff;
+// $go-top-hover-color: #ffffff;
+
+// //testinomial
+// $testinomial-image-bg: "../img/bg-testinomial2.jpg";
+// $testinomial-color: #ffffff;
+// $testinomial-title-color: #82B440;
+// $testinomial-arrow-color: #ffffff;
+// $testinomial-hover-arrow-color: #82b440;
+
+// //gallery
+// $gallery-menu-link-bg-color: transparent;
+// $gallery-menu-link-color: #222222;
+// $gallery-menu-border-color: #909090;
+// $gallery-menu-active-link-bg-color: #82b440;
+// $gallery-menu-active-link-color: #ffffff;
+// $gallery-menu-active-border-color: #82b440;
+// $gallery-menu-hover-link-bg-color: #07AAA5;
+// $gallery-menu-hover-link-color: #ffffff;
+// $gallery-menu-hover-border-color: #07AAA5;
+
+// $overlay-bg-color: rgba(255,255,255,.8);
+// $overlay-color: #222222;
+// $overlay-title-color: #82A75E;
+// $overlay-line-color: #000000;
+
+// //slogan
+// $slogan-bg-color: #82b440;
+// $slogan-color: #ffffff;
+// $slogan-btn-bg-color: #ffffff; 
+// $slogan-btn-color: #000000;
+// $slogan-btn-border-color: #ffffff;
+
+// //footer
+// $footer-bg-color: #121416;
+// $footer-color: #a6a6a6;
+// $footer-breadcrumbs-link-color: #ffffff;
+// $footer-breadcrumbs-hover-link-color: #82b440;
+
+//
+//Fitevent4 colors
+//
+// $color0: $white;
+// $color1: $rich-black;
+// $color2: $ball-blue;
+// $color3: $moonstone-blue;
+// $color4: $wild-blue-yonder;
+// $color5: $platinum;
+
+$color0: $white;//$cultured;
+$color1: $maastricht-blue;
+$color2: $orange;
+$color3: $vivid-malachite;
+$color4: $picton-blue;
+$color5: $cultured;
+$color6: $maximum-yellow;
+$color7: $royal-blue;
+
+$shadow-color: #576164;
+
+$green: #82b440;
+$green_light: rgba(130, 180, 64, 0.65);
+$blue: #07aaa5;
+$dark_grey: #969696;
+
+$body-color: $color1;
+$main-slider-color: $color5;
+
+$section-small-title-color: $color4; 
+
+//buttons
+$btn-green-bg-color: $color3;
+$btn-blue-bg-color: #07AAA5;
+
+$btn-color1-bg-color: $color1;
+$btn-color2-bg-color: $color2;
+$btn-color3-bg-color: $color3;
+$btn-color4-bg-color: $color4;
+$btn-color5-bg-color: $color5; 
+$btn-color6-bg-color: $color6; 
+
+
+
+$bounce-white-color: $color1;
+$bounce-top-bg-color: #07AAA5;
+$bounce-top-border-color: #07AAA5;
+$bounce-top-color: $color0;
+
+$bounce-green-bg-color: $color3;
+$bounce-green-border-color: $color3;
+$bounce-green-color: $color0;
+
+$bounce-white-bg-color: $color0;
+$bounce-white-border-color: $color0;
+$bounce-white-color: $color1;
+
+$bounce-red-bg-color: $color2;
+$bounce-red-border-color: $color2;
+$bounce-red-color: $color0;
+
+$bounce-blue-bg-color: $color4;
+$bounce-blue-border-color: $color4;
+$bounce-blue-color: $color0;
+
+$bounce-yellow-bg-color: $color6;
+$bounce-yellow-border-color: $color6;
+$bounce-yellow-color: $color1; 
+
+$btn-color6-bg-color: $color6;
+$btn-color6-border-color: $color6;
+$btn-color6-color: $color1;
+
+//top navigation
+$nav-bg-color: rgba($color5, 0); 
+$nav-affix-bg-color: $color5;
+$nav-mobile-bg-color: $color1; 
+$nav-shadow-color: rgba($shadow-color, 0.35);
+
+
+$menu-link-color: $color1; 
+$menu-affix-link-color: $color1;
+$menu-link-active-color: $color4;
+$menu-link-active-border-color: $color4;
+$menu-link-hover-color: $color4;
+
+
+//slider arrows
+$slider-arrow-left-sign: "\f104";
+$slider-arrow-right-sign: "\f105";
+$slider-arrow-size: 40px;
+$slider-arrow-color: $color5;
+$slider-border: 2px solid $color5;
+$slider-bg-color: rgba($color5, 0);
+$slider-hover-arrow-color: $color6;
+$slider-hover-border: 2px solid $color4;
+$slider-hover-bg-color: rgba($color4, 1);
+
+$parallax-color: $color7;
+$parallax-image: "../img/paralax-index5.jpg";
+
+$thinker-overlay-bg-color: rgba($color4,.75);
+$thinker-overlay2-bg-color: rgba($color3,.75);
+
+$thinker-social-bg-color: rgba($color0, 0);
+$thinker-social-hover-bg-color: $color6;
+$thinker-social-color: $color5;
+$thinker-social-hover-color: $color4;
+$thinker-social-border: 1px solid $color5;
+$thinker-social-hover-border: 1px solid $color6;
+
+//about
+$about-color1: $color1;
+$about-hover-color1: $color1;
+$about-color2: $color2;
+$about-hover-color2: $color2;
+$about-color3: $color3;
+$about-hover-color3: $color3;
+$about-color4: $color4;
+$about-hover-color4: $color4;
+$about-color5: $color5;
+$about-hover-color5: $color5;
+$about-color6: $color6; 
+$about-hover-color6: $color6;
+$about-title-color: $color1; 
+$about-list-mark-color: $color4;
+$about-text-awarded-color: $color7;
+//list 
+$list-color: $color1;
+$list-mark-color: $color7;
+
+$responsive-icons-color: $color7;
+
+//go button
+$go-top-bg-color: $color4;
+$go-top-hover-bg-color: $color6;
+$go-top-color: $color0;
+$go-top-hover-color: $color1; 
+
+//we-do
+$wedo-hover-bg-color: $color6;
+$wedo-icon-color: $color0;
+$wedo-icon-hover-color: $color1; 
+
+//gallery
+$gallery-menu-link-bg-color: transparent;
+$gallery-menu-link-color: $color1;
+$gallery-menu-border-color: $color1;
+$gallery-menu-active-link-bg-color: $color4;
+$gallery-menu-active-link-color: $color0;
+$gallery-menu-active-border-color: $color4;
+$gallery-menu-hover-link-bg-color: $color6;
+$gallery-menu-hover-link-color: $color1;
+$gallery-menu-hover-border-color: $color6;
+
+$overlay-bg-color: rgba($color5,.8);
+$overlay-color: $color1;
+$overlay-title-color: $color4;
+$overlay-line-color: $color7;
+
+//testinomial
+$testinomial-image-bg: "../img/bg-testinomial2.jpg";
+$testinomial-color: $color5;
+$testinomial-title-color: $color6;
+$testinomial-arrow-color: $color6;
+$testinomial-hover-arrow-color: $color4;
+
+//slogan
+$slogan-bg-color: $color4;
+$slogan-color: $color5;
+$slogan-btn-bg-color: $color5; 
+$slogan-btn-color: $color1;
+$slogan-btn-border-color: $color5;
+
+//contact
+$contact-link-color: $color4;
+$contact-link-hover-color: $color6;
+
+//social-links
+$social-link-hover-bg-color: $color4;
+$social-link-hover-border-color: $color4;
+
+//footer
+$footer-bg-color: $color7;
+$footer-color: $color5;
+$footer-breadcrumbs-link-color: $color5;
+$footer-breadcrumbs-hover-link-color: $color6;
+
+
+
+

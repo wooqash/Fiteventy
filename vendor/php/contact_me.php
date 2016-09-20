@@ -1,8 +1,8 @@
 <?php
 if($_POST)
 {
-	$to_Email   	= "email@website.com"; //Replace with recipient email address
-	$subject        = 'BizOne - New Contact Inquiry'; //Subject line for emails
+	$to_Email   	= "biuro@fiteventy.pl"; //Replace with recipient email address
+	$subject        = 'Fiteventy - Nowe zapytanie ofertowe'; //Subject line for emails
 	
 	
 	//check if its an ajax request, exit if not
@@ -50,9 +50,9 @@ if($_POST)
 	}
 	
 	
-	$message_Body = "<strong>Name: </strong>". $user_Name ."<br>";
+	$message_Body = "<strong>Imię i nazwisko: </strong>". $user_Name ."<br>";
 	$message_Body .= "<strong>Email: </strong>". $user_Email ."<br>";
-	$message_Body .= "<strong>Message: </strong>". $user_Message ."<br>";
+	$message_Body .= "<strong>Wiadomość: </strong>". $user_Message ."<br>";
 	
 	
 	

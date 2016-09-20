@@ -2,7 +2,7 @@
 /* CSS Document */
 
 .green {
-	background:#82b440;
+	background:$green;
 	}
 .green_light {
 	background: rgba(130, 180, 64, 0.65);
@@ -18,10 +18,10 @@
 }
 
 .we-do .do-wrap a:hover{
-	color:#07aaa5;
+	color: $wedo-hover-bg-color;
 }
 .we-do .do-wrap:hover .top, we-do .do-wrap:focus .top, .we-do .do-wrap:hover span, .we-do .do-wrap:focus span{
-	background:#07aaa5;
+	background: $wedo-hover-bg-color;
 }
 
 .pricing_item.dark_gray {

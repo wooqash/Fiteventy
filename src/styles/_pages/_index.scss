@@ -1,3 +1,42 @@
-#module-index {
+ul.top-right li a{
+	color: $menu-link-color;	
+}
+.thinker-image .overlay ul.social-link li a{
+	border: $thinker-social-border;
+	&:hover {
+		&> i{
+			color: $thinker-social-hover-color;		
+		}
+		span{
+			background: $thinker-social-hover-bg-color;
+			border: $thinker-social-hover-border;
+		}
+	}
+}
 
+.we-do .do-wrap {
+	p{
+		margin: 0 15px 40px;
+	}
+	span i{
+		font-size: 35px;
+	}
+}
+.counters-item{ 
+	p{
+		margin: 10px 0;
+	}
+	i.fi{
+		font-size: 35px;
+	}
+}
+#experties .logo-box{
+	text-align: center;
+	img{
+		max-width: 100%;
+	}
+}
+
+footer p>a:hover{
+	color: $footer-breadcrumbs-hover-link-color;
 }

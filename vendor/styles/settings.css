@@ -1450,25 +1450,73 @@ border-style:none;
 
 .tp-leftarrow.default{	
 	z-index:100;cursor:pointer; position:relative;	
-	background: url(../img/prev.png) no-Repeat 0 0;	
-	width:57px;	height:50px;
+	/*background: url(../img/prev.png) no-Repeat 0 0;	*/
+	/*width:57px;	height:50px;*/
 	
 	-webkit-transition: all 200ms linear;
    -moz-transition: all 200ms linear;
 	-ms-transition: all 200ms linear;
    -o-transition:all 200ms linear;
 	transition:all 200ms linear;
+
+	display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: $slider-arrow-size;
+    line-height: $slider-arrow-size;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    width: $slider-arrow-size;
+    height: $slider-arrow-size;
+    color: $slider-arrow-color;
+    border: $slider-border;
+    border-radius: $slider-arrow-size;
+    background-color: $slider-bg-color;
+}
+.tp-leftarrow.default:before{
+	content: $slider-arrow-left-sign;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-moz-transform: translate(-66%, -50%);
+	-webkit-transform: translate(-66%, -50%);
+	-o-transform: translate(-66%, -50%);
+	-ms-transform: translate(-66%, -50%);
+	transform: translate(-66%, -50%);
 }
 .tp-rightarrow.default{	
 	z-index:100;cursor:pointer; position:relative;	
-	background:url(../img/next.png) no-Repeat 0 0;	
-	width:57px;	height:50px;
+/*	background:url(../img/next.png) no-Repeat 0 0;	
+	width:57px;	height:50px;*/
 	
 	-webkit-transition: all 200ms linear;
    -moz-transition: all 200ms linear;
 	-ms-transition: all 200ms linear;
    -o-transition:all 200ms linear;
 	transition:all 200ms linear;
+
+	display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: $slider-arrow-size;
+    line-height: $slider-arrow-size;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    width: $slider-arrow-size;
+    height: $slider-arrow-size;
+    color: $slider-arrow-color;
+    border: $slider-border;
+    border-radius: $slider-arrow-size;
+    background-color: $slider-bg-color;
+}
+.tp-rightarrow.default:before{
+	content: $slider-arrow-right-sign;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-moz-transform: translate(-36%, -50%);
+	-webkit-transform: translate(-36%, -50%);
+	-o-transform: translate(-36%, -50%);
+	-ms-transform: translate(-36%, -50%);
+	transform: translate(-36%, -50%);
 }
 
 #index_3_slider .tp-leftarrow.default{
@@ -1483,7 +1531,10 @@ border-style:none;
 .tp-rightarrow:hover,
 #index_3_slider .tp-leftarrow:hover,
 #index_3_slider .tp-rightarrow:hover {	
-	background-position:bottom left;
+	/*background-position:bottom left;*/
+	color: $slider-hover-arrow-color;
+	border: $slider-hover-border;
+	background-color: $slider-hover-bg-color;
 }
 
 

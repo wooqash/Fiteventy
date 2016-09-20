@@ -1,0 +1,179 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 22/06/2016 15:08
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("../fonts/Flaticon.eot");
+  src: url("../fonts/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/Flaticon.woff") format("woff"),
+       url("../fonts/Flaticon.ttf") format("truetype"),
+       url("../fonts/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("../fonts/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-apple-diet:before { content: "\f100"; }
+.flaticon-apple-in-a-heart:before { content: "\f101"; }
+.flaticon-bald-man-head-with-brain-and-heart:before { content: "\f102"; }
+.flaticon-ball-of-basketball:before { content: "\f103"; }
+.flaticon-band-aid:before { content: "\f104"; }
+.flaticon-bicycle-of-gym-without-wheels:before { content: "\f105"; }
+.flaticon-bike:before { content: "\f106"; }
+.flaticon-break-time-symbol-of-a-timer-and-an-apple:before { content: "\f107"; }
+.flaticon-burger-unhealthy-food:before { content: "\f108"; }
+.flaticon-calendar:before { content: "\f109"; }
+.flaticon-carrot-of-healthy-vegetable-diet-for-fitness:before { content: "\f10a"; }
+.flaticon-chronometer:before { content: "\f10b"; }
+.flaticon-chronometer-for-fitness-time-control:before { content: "\f10c"; }
+.flaticon-cross-of-fork-and-knife-on-a-plate-to-not-eat:before { content: "\f10d"; }
+.flaticon-date:before { content: "\f10e"; }
+.flaticon-drugs-container:before { content: "\f10f"; }
+.flaticon-dumbbell:before { content: "\f110"; }
+.flaticon-dumbbells-couple:before { content: "\f111"; }
+.flaticon-dumbbells-rounded-couple-in-silhouettes:before { content: "\f112"; }
+.flaticon-file-of-diet-info:before { content: "\f113"; }
+.flaticon-first-prize-medal:before { content: "\f114"; }
+.flaticon-fitness-digital-machine-control:before { content: "\f115"; }
+.flaticon-flexions-exercise:before { content: "\f116"; }
+.flaticon-gloves-sportive-protection-equipment:before { content: "\f117"; }
+.flaticon-hanging-wheel-of-fitness-equipments:before { content: "\f118"; }
+.flaticon-healthy-food-symbol-of-an-apple-with-a-heart:before { content: "\f119"; }
+.flaticon-heart-beats:before { content: "\f11a"; }
+.flaticon-heart-beats-controlling-tool:before { content: "\f11b"; }
+.flaticon-heart-with-lifeline:before { content: "\f11c"; }
+.flaticon-kickboxing-gloves-and-hanging-weight-sack:before { content: "\f11d"; }
+.flaticon-man-running-in-gym:before { content: "\f11e"; }
+.flaticon-man-silhouette-with-heart-beats-control-tool:before { content: "\f11f"; }
+.flaticon-man-stretching-arms-after-waking-up:before { content: "\f120"; }
+.flaticon-medical-drugs:before { content: "\f121"; }
+.flaticon-medical-drugs-container:before { content: "\f122"; }
+.flaticon-medical-pills-couple:before { content: "\f123"; }
+.flaticon-meter-measuring-tool:before { content: "\f124"; }
+.flaticon-musculous-arm-silhouette:before { content: "\f125"; }
+.flaticon-music:before { content: "\f126"; }
+.flaticon-musical-note-black-symbol:before { content: "\f127"; }
+.flaticon-musical-note-symbol:before { content: "\f128"; }
+.flaticon-no-smoking-signal-symbol:before { content: "\f129"; }
+.flaticon-notes:before { content: "\f12a"; }
+.flaticon-oxygenation-of-lungs:before { content: "\f12b"; }
+.flaticon-pencil-black-gross-tool:before { content: "\f12c"; }
+.flaticon-restaurant-symbol-of-cutlery-in-a-circle:before { content: "\f12d"; }
+.flaticon-resting-time-on-bed-for-body-recover-after-fitness:before { content: "\f12e"; }
+.flaticon-runer-silhouette-running-fast:before { content: "\f12f"; }
+.flaticon-sauce-black-bottle:before { content: "\f130"; }
+.flaticon-scale:before { content: "\f131"; }
+.flaticon-scale-perspective:before { content: "\f132"; }
+.flaticon-skating-sportive-boot:before { content: "\f133"; }
+.flaticon-sportive-shoe:before { content: "\f134"; }
+.flaticon-standing-man-silhouette-lifting-dumbbells:before { content: "\f135"; }
+.flaticon-star-medal-on-ribbon-necklace:before { content: "\f136"; }
+.flaticon-steroids:before { content: "\f137"; }
+.flaticon-sunrise:before { content: "\f138"; }
+.flaticon-swimming-pool:before { content: "\f139"; }
+.flaticon-thin-waist:before { content: "\f13a"; }
+.flaticon-thumb-up-hand-silhouette:before { content: "\f13b"; }
+.flaticon-trophy-shape:before { content: "\f13c"; }
+.flaticon-truck:before { content: "\f13d"; }
+.flaticon-two-weightlifting-tools-of-padlock-shape:before { content: "\f13e"; }
+.flaticon-water-dispenser-silhouette:before { content: "\f13f"; }
+.flaticon-weightlifter-frontal-silhouette:before { content: "\f140"; }
+.flaticon-weightlifter-silhouette:before { content: "\f141"; }
+.flaticon-weightlifter-upper-side-silhouette:before { content: "\f142"; }
+.flaticon-wine-prohibition-signal:before { content: "\f143"; }
+.flaticon-yin-yang:before { content: "\f144"; }
+.flaticon-yoga-posture:before { content: "\f145"; }
+    
+    $font-Flaticon-apple-diet: "\f100";
+    $font-Flaticon-apple-in-a-heart: "\f101";
+    $font-Flaticon-bald-man-head-with-brain-and-heart: "\f102";
+    $font-Flaticon-ball-of-basketball: "\f103";
+    $font-Flaticon-band-aid: "\f104";
+    $font-Flaticon-bicycle-of-gym-without-wheels: "\f105";
+    $font-Flaticon-bike: "\f106";
+    $font-Flaticon-break-time-symbol-of-a-timer-and-an-apple: "\f107";
+    $font-Flaticon-burger-unhealthy-food: "\f108";
+    $font-Flaticon-calendar: "\f109";
+    $font-Flaticon-carrot-of-healthy-vegetable-diet-for-fitness: "\f10a";
+    $font-Flaticon-chronometer: "\f10b";
+    $font-Flaticon-chronometer-for-fitness-time-control: "\f10c";
+    $font-Flaticon-cross-of-fork-and-knife-on-a-plate-to-not-eat: "\f10d";
+    $font-Flaticon-date: "\f10e";
+    $font-Flaticon-drugs-container: "\f10f";
+    $font-Flaticon-dumbbell: "\f110";
+    $font-Flaticon-dumbbells-couple: "\f111";
+    $font-Flaticon-dumbbells-rounded-couple-in-silhouettes: "\f112";
+    $font-Flaticon-file-of-diet-info: "\f113";
+    $font-Flaticon-first-prize-medal: "\f114";
+    $font-Flaticon-fitness-digital-machine-control: "\f115";
+    $font-Flaticon-flexions-exercise: "\f116";
+    $font-Flaticon-gloves-sportive-protection-equipment: "\f117";
+    $font-Flaticon-hanging-wheel-of-fitness-equipments: "\f118";
+    $font-Flaticon-healthy-food-symbol-of-an-apple-with-a-heart: "\f119";
+    $font-Flaticon-heart-beats: "\f11a";
+    $font-Flaticon-heart-beats-controlling-tool: "\f11b";
+    $font-Flaticon-heart-with-lifeline: "\f11c";
+    $font-Flaticon-kickboxing-gloves-and-hanging-weight-sack: "\f11d";
+    $font-Flaticon-man-running-in-gym: "\f11e";
+    $font-Flaticon-man-silhouette-with-heart-beats-control-tool: "\f11f";
+    $font-Flaticon-man-stretching-arms-after-waking-up: "\f120";
+    $font-Flaticon-medical-drugs: "\f121";
+    $font-Flaticon-medical-drugs-container: "\f122";
+    $font-Flaticon-medical-pills-couple: "\f123";
+    $font-Flaticon-meter-measuring-tool: "\f124";
+    $font-Flaticon-musculous-arm-silhouette: "\f125";
+    $font-Flaticon-music: "\f126";
+    $font-Flaticon-musical-note-black-symbol: "\f127";
+    $font-Flaticon-musical-note-symbol: "\f128";
+    $font-Flaticon-no-smoking-signal-symbol: "\f129";
+    $font-Flaticon-notes: "\f12a";
+    $font-Flaticon-oxygenation-of-lungs: "\f12b";
+    $font-Flaticon-pencil-black-gross-tool: "\f12c";
+    $font-Flaticon-restaurant-symbol-of-cutlery-in-a-circle: "\f12d";
+    $font-Flaticon-resting-time-on-bed-for-body-recover-after-fitness: "\f12e";
+    $font-Flaticon-runer-silhouette-running-fast: "\f12f";
+    $font-Flaticon-sauce-black-bottle: "\f130";
+    $font-Flaticon-scale: "\f131";
+    $font-Flaticon-scale-perspective: "\f132";
+    $font-Flaticon-skating-sportive-boot: "\f133";
+    $font-Flaticon-sportive-shoe: "\f134";
+    $font-Flaticon-standing-man-silhouette-lifting-dumbbells: "\f135";
+    $font-Flaticon-star-medal-on-ribbon-necklace: "\f136";
+    $font-Flaticon-steroids: "\f137";
+    $font-Flaticon-sunrise: "\f138";
+    $font-Flaticon-swimming-pool: "\f139";
+    $font-Flaticon-thin-waist: "\f13a";
+    $font-Flaticon-thumb-up-hand-silhouette: "\f13b";
+    $font-Flaticon-trophy-shape: "\f13c";
+    $font-Flaticon-truck: "\f13d";
+    $font-Flaticon-two-weightlifting-tools-of-padlock-shape: "\f13e";
+    $font-Flaticon-water-dispenser-silhouette: "\f13f";
+    $font-Flaticon-weightlifter-frontal-silhouette: "\f140";
+    $font-Flaticon-weightlifter-silhouette: "\f141";
+    $font-Flaticon-weightlifter-upper-side-silhouette: "\f142";
+    $font-Flaticon-wine-prohibition-signal: "\f143";
+    $font-Flaticon-yin-yang: "\f144";
+    $font-Flaticon-yoga-posture: "\f145";
