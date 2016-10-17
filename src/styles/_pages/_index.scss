@@ -40,3 +40,24 @@ ul.top-right li a{
 footer p>a:hover{
 	color: $footer-breadcrumbs-hover-link-color;
 }
+
+@media screen and (max-width: 767px){
+	#main-navigation{
+		background-color: $nav-bg-color;
+	}
+	.navbar-toggle{
+		right: -30px !important;
+		.icon-bar{
+			background-color: $menu-link-color!important;
+		}
+	}
+	.r-test .screens{
+		text-align: center;
+	}
+	#experties{
+		padding-bottom: 0;
+		.logo-box{
+			margin: 40px 0;
+		}
+	}
+}
