@@ -638,10 +638,10 @@ ul.top-right li a:hover,
   -ms-transition: all 0.2s;
   -o-transition: all 0.2s;
   transition: all 0.2s;
-  background-color:#fff !important;
+  background-color:$nav-burger-icon-color;
 }
 #navigation.affix .navbar-toggle .icon-bar{
-	background-color:#222 !important;
+	background-color:$nav-burger-icon-color;
 }	
 .navbar-toggle .top-bar {
   transform: rotate(45deg);
@@ -2543,7 +2543,7 @@ margin-top: 30px;
 		top:14px;
 	}
 	.navbar-toggle {
-     right: -100px !important;
+     right: -100px ;
   }
   .main-button { top: 10px;}
 	  .push_nav_brand {

@@ -1,11 +1,11 @@
 
-jQuery(function($) {'use strict',
+jQuery(function($) {'use strict';
 
 
 		  
 	  //Window Loaded Handler
 
-  $(window).load(function(){'use strict';
+  $(window).load(function(){
 		 $(".loader").fadeOut("slow");
 		 
   });
@@ -50,13 +50,13 @@ jQuery(function($) {'use strict',
         
         //simple validation at client's end
         var proceed = true;
-        if(user_name==""){ 
+        if(user_name===""){ 
             proceed = false;
         }
-        if(user_email==""){ 
+        if(user_email===""){ 
             proceed = false;
         }
-		if(user_message=="") {  
+		if(user_message==="") {  
             proceed = false;
         }
 
@@ -103,7 +103,7 @@ jQuery(function($) {'use strict',
 			fullScreen:"on",
 			shadow:0,
 			dottedOverlay:"none",
-			fullScreenOffsetContainer: ""      
+			fullScreenOffsetContainer: ""
 	 });
   
 
@@ -127,7 +127,7 @@ jQuery(function($) {'use strict',
         $('html, body').stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top
         }, 1200, 'easeInOutExpo');
-       event.preventDefault();;
+       event.preventDefault();
 		$('#navigation').affix({offset: {top: 50} });
 		
 		
@@ -144,15 +144,15 @@ jQuery(function($) {'use strict',
 			 to: e,
 			 speed: 3e3,
 			 refreshInterval: 50
-		  })
-		})
+		  });
+		});
 	 });
 		  
 	 
 	
  //FOr Circular Progress show
 	 $('.some').appear(function () {
-		 $('.myStat2').circliful() 
+		 $('.myStat2').circliful();
 	 });   
 	 
 
