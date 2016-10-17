@@ -94,6 +94,13 @@ ul.top-right li a{
 	}
 }
 
+.dot1{
+	background-color: $spinner-dot1;
+}
+.dot2{
+	background-color: $spinner-dot2;
+}
+
 footer p>a:hover{
 	color: $footer-breadcrumbs-hover-link-color;
 }
@@ -103,7 +110,7 @@ footer p>a:hover{
 		background-color: $nav-bg-color;
 	}
 	.navbar-toggle{
-		right: -30px !important;
+		right: 0px !important;
 		.icon-bar{
 			background-color: $menu-link-color!important;
 		}
@@ -117,6 +124,7 @@ footer p>a:hover{
 			margin: 40px 0;
 		}
 	}
+}
 @include respond-to(tablet){
 	
 	.fullscreenbanner li{

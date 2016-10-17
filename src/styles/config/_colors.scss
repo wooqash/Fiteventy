@@ -215,6 +215,8 @@ $btn-color4-bg-color: $color4;
 $btn-color5-bg-color: $color5; 
 $btn-color6-bg-color: $color6; 
 
+$spinner-dot1: $color6;
+$spinner-dot2: $color4;
 
 
 $bounce-white-color: $color1;
@@ -247,7 +249,7 @@ $btn-color6-border-color: $color6;
 $btn-color6-color: $color1;
 
 //top navigation
-$nav-bg-color: rgba($color5, 0.3); 
+$nav-bg-color: rgba($color5, 0); 
 $nav-affix-bg-color: $color5;
 $nav-mobile-bg-color: $color1;
 $nav-burger-icon-color: $color1; 
