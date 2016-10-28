@@ -40,11 +40,11 @@ Table Of Content
 + .we-do
 	-.do-wrap
 
-+ #thinkers
++ #o-nas
 	-.thinker-wrap
 		-.social-contact
 	
-+ #project
++ #eventy
    - .work-filter 
 	- .work-item
 		- .overlay
@@ -72,7 +72,7 @@ Table Of Content
 	-.owl-carousel
 		.item
 		
-+ #contact
++ #kontakt
 	-#letstalk
 
 + ##area-main
@@ -522,8 +522,8 @@ a, #navigation.affix .navbar-default .navbar-nav > li > a,
 #navigation.affix .navbar-default .navbar-nav > li > a,
 .push_nav li a,
 ul.top-right li a:hover,
-#about .canvas-box span i, #about .canvas-box h4,
-#about .canvas-box:hover span i,
+#oferta .canvas-box span i, #about .canvas-box h4,
+#oferta .canvas-box:hover span i,
 .we-do .do-wrap i, .we-do .do-wrap:hover i,
 .counters-item i, .counters-item:hover i,
 .thinker-image .overlay,
@@ -1121,7 +1121,7 @@ ul.top-right li a:hover.instagram{
 	left: 0;
 }
 
-#about .r-test ul.r-feature li:before{
+#oferta .r-test ul.r-feature li:before{
 	color:$color4;
 }
 
@@ -1264,7 +1264,7 @@ ul.top-right li a:hover.instagram{
 	position:relative;
 }
 .we-do .do-wrap a:before,
-#thinkers .thinker-wrap ul.social-contact li a:before,
+#o-nas .thinker-wrap ul.social-contact li a:before,
 .index_2#publication .wrap-pulication a:before{
   content: "";
   height: 2px;
@@ -1321,7 +1321,7 @@ ul.top-right li a:hover.instagram{
 
 
 /* ------------  Our Creative Thinkers ------------  */
-#thinkers .thinker-wrap img, #publication-slider .item .image img{
+#o-nas .thinker-wrap img, #publication-slider .item .image img{
 	width:100%;
 	-moz-transition:all .2s linear;
 	-ms-transition:all .2s linear;
@@ -1396,21 +1396,21 @@ ul.top-right li a:hover.instagram{
    -o-transition:all 0.3s ease-in-out ;
 	transition:all 0.3s ease-in-out;
 }
-#thinkers .thinker-wrap h3{  
+#o-nas .thinker-wrap h3{  
 	margin-top:20px;
 	font-size:20px;
 }
-#thinkers .thinker-wrap small{
+#o-nas .thinker-wrap small{
   color: #838383;
   display: inline-block;
   margin: 5px 0 15px;
 }
 
-#thinkers .thinker-wrap ul.social-contact li{
+#o-nas .thinker-wrap ul.social-contact li{
 	display:inline-block;
 }
 
-#thinkers .thinker-wrap ul.social-contact li a{
+#o-nas .thinker-wrap ul.social-contact li a{
 	font-weight:bolder;
 	color:$body-color;
 	margin:0 8px;
@@ -1418,33 +1418,33 @@ ul.top-right li a:hover.instagram{
 	position:relative;
 	padding-bottom:3px;
 }
-#thinkers .thinker-wrap ul.social-contact li a:hover::before{
+#o-nas .thinker-wrap ul.social-contact li a:hover::before{
 	 opacity:1;
 	 filter: alpha(opacity=100);
 	 transform: translateY(0px)
 	
 }
-#thinkers .thinker-wrap ul.social-contact li a:hover.facebook{
+#o-nas .thinker-wrap ul.social-contact li a:hover.facebook{
 	color:#3b5998 !important;
 }
 
-#thinkers .thinker-wrap ul.social-contact li a:hover.facebook::before{
+#o-nas .thinker-wrap ul.social-contact li a:hover.facebook::before{
 	background: #3b5998;
 }
 
-#thinkers .thinker-wrap ul.social-contact li a:hover.twitter{
+#o-nas .thinker-wrap ul.social-contact li a:hover.twitter{
 	color:#1da1f2;
 }
 
-#thinkers .thinker-wrap ul.social-contact li a:hover.twitter::before{
+#o-nas .thinker-wrap ul.social-contact li a:hover.twitter::before{
 	background: #1da1f2;
 }
 
-#thinkers .thinker-wrap ul.social-contact li a:hover.linkden{
+#o-nas .thinker-wrap ul.social-contact li a:hover.linkden{
 	color:#0077B5;
 }
 
-#thinkers .thinker-wrap ul.social-contact li a:hover.linkden::before{
+#o-nas .thinker-wrap ul.social-contact li a:hover.linkden::before{
 	background: #0077B5;
 }
 /* ------------  Our Creative Thinkers ------------  */
@@ -1453,7 +1453,7 @@ ul.top-right li a:hover.instagram{
 
 
 /* ------------  Gallery Filter ------------  */
-#project{
+#eventy{
 	padding-top:5%;
 	background:#f8f8f8;
 }
@@ -1884,24 +1884,24 @@ ul.top-right li a:hover.instagram{
 
 
 /* ------------ Contact Us ------------ */
-#contact .center h2,
-#contact .center .margen{
+#kontakt .center h2,
+#kontakt .center .margen{
 	margin-bottom:45px;
 }
-#contact .center a{
+#kontakt .center a{
 	color:$contact-link-color;
 	position: relative;
 }
-#contact .center a:hover{
+#kontakt .center a:hover{
 	color: $contact-link-hover-color;
 }
 
-#contact .center ul.social-link{
+#kontakt .center ul.social-link{
 	margin-top:45px;
 }
 
 
-#contact .form-inline{
+#kontakt .form-inline{
 	margin-top:45px;
 }
 .form-control:focus {
@@ -1910,14 +1910,14 @@ ul.top-right li a:hover.instagram{
   transition: all 0.2s ease-in 0s;
 }
 
-#contact .form-inline .col-md-6,
-#contact .form-inline .col-md-12{
+#kontakt .form-inline .col-md-6,
+#kontakt .form-inline .col-md-12{
 	padding-left:5px;
 	padding-right:5px;
 }
 
 
-#contact .form-inline .form-control, #contact .form-inline textarea {
+#kontakt .form-inline .form-control, #kontakt .form-inline textarea {
   border: 1px solid #d0d0d0;
   border-radius: 0;
   color: #4c4c4c;
@@ -1926,25 +1926,25 @@ ul.top-right li a:hover.instagram{
   width: 100%;
 }
 
-#contact .form-inline .form-control{
+#kontakt .form-inline .form-control{
 	height:45px;
 }
 
-#contact .form-inline .form-control,
-#contact .form-inline textarea{
+#kontakt .form-inline .form-control,
+#kontakt .form-inline textarea{
 	margin-bottom:10px;
 }
 
-#contact .form-inline textarea{
+#kontakt .form-inline textarea{
 	margin-top:0;
 	min-height:210px;
 }
-#contact .form-inline .btn-black{
+#kontakt .form-inline .btn-black{
 	width:100%;
 	color:#fff;
 	
 }	
-#contact .form-inline input[type="submit"]{
+#kontakt .form-inline input[type="submit"]{
 	width:100%;
 	height:100%;
 	background-color:transparent;
@@ -2573,16 +2573,16 @@ margin-top: 30px;
 		font-size:30px;
 	}
 	.we-do .do-wrap,
-	#thinkers .thinker-wrap{
+	#o-nas .thinker-wrap{
 		margin:30px 0;
 	}
-	#thinkers{
+	#o-nas{
 		padding-bottom:45px;
 	}	
 	.thinker-image .overlay {
 	  height: 60px;
 	}
-	#project{ padding-top:0;}
+	#eventy{ padding-top:0;}
 	#responsive{
 	}
 	#responsive .responsive-pic > .col-md-6 > img{
@@ -2636,7 +2636,7 @@ margin-top: 30px;
 
 @media screen and (min-width: 641px) and (max-width: 767px) { 
 
-      #thinkers .col-sm-4{
+      #o-nas .col-sm-4{
 		  width: 48%;
 		  display:inline-block;
 	  } 
