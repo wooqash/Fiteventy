@@ -1,3 +1,7 @@
+jQuery.ready(function(){
+	console.log(window.location.href);
+});
+
 
 jQuery(function($) {'use strict';
 
@@ -123,13 +127,21 @@ jQuery(function($) {'use strict';
 // Scroll One Page Menu
   $('a.page-scroll, .cbp-spmenu a').on('click', function(event){
         //var $nav_height = $('#navigation.affix').outerHeight();		
-		var $anchor = $(this);
+		var $anchor = $(this),
+			hash = $anchor.attr('href').replace('#', ''),
+			url = window.location.href;
         $('html, body').stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top
         }, 1200, 'easeInOutExpo');
-       event.preventDefault();
+  //       if(history.pushState) {
+		//     history.pushState(null, null, hash);
+		// }
+		// else {
+		//     location.hash = hash;
+		// }
+       	event.preventDefault();
+
 		$('#navigation').affix({offset: {top: 50} });
-		
 		
    });
 

@@ -6,7 +6,7 @@
 		background: rgba($white, 0.5);
 	    padding: 20px 0;
 	    // border-radius: 155px;
-	}
+	} 
 } 
 #navigation{
 	transition: background .3s ease;
@@ -145,6 +145,11 @@ footer p>a:hover{
 			.btn-comon{
 				// top: initial;
 			}
+		}
+	}
+	.info-section{
+		.block:nth-child(1){
+			padding: 90px 5% 20px;
 		}
 	}
 }
