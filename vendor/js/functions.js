@@ -1,5 +1,42 @@
+function close_pop() {
+    $('.backdrop, .box').animate({
+        'opacity': '0'
+    }, 300, 'linear', function () {
+        $('.cookies').css('display', 'none');
+    });
+
+    setCookie('hide', true, 365);
+    return false;
+}
+
+function getCookie(c_name) {
+    var c_value = document.cookie;
+    var c_start = c_value.indexOf(" " + c_name + "=");
+    if (c_start == -1) {
+        c_start = c_value.indexOf(c_name + "=");
+    }
+    if (c_start == -1) {
+        c_value = null;
+    } else {
+        c_start = c_value.indexOf("=", c_start) + 1;
+        var c_end = c_value.indexOf(";", c_start);
+        if (c_end == -1) {
+            c_end = c_value.length;
+        }
+        c_value = unescape(c_value.substring(c_start, c_end));
+    }
+    return c_value;
+}
+
+function setCookie(c_name, value, exdays) {
+    var exdate = new Date();
+    exdate.setDate(exdate.getDate() + exdays);
+    var c_value = escape(value) + ((exdays == null) ? "" : "; expires=" + exdate.toUTCString());
+    document.cookie = c_name + "=" + c_value;
+}
+
 jQuery.ready(function(){
-	console.log(window.location.href);
+
 });
 
 
@@ -14,7 +51,32 @@ jQuery(function($) {'use strict';
 		 
   });
 	 
-	
+	if (!getCookie('hide')) {
+	    window.setTimeout(function () {
+	        $('.cookies').show();
+	        $('.cookies').ready(function () {
+	            $('.backdrop, .box').animate({
+	                'opacity': '.50'
+	            }, 300, 'linear');
+	            $('.box').animate({
+	                'opacity': '1.00'
+	            }, 300, 'linear');
+	            $('.backdrop, .box').css('display', 'block');
+	        });
+
+	        $('.close-btn').click(function () {
+	            close_pop();
+	        });
+
+	        // $('.backdrop').click(function () {
+	        //     close_pop();
+	        // });
+	        //change 1000 to 20000 for 20 seconds
+	    }, 1000);
+	}
+	else{
+		$('.cookies').hide();
+	}
    	
 	 
   
@@ -48,12 +110,12 @@ jQuery(function($) {'use strict';
 //Contact Us
   $("#btn_submit").click(function() { 
         //get input field values
-        var user_name       = $('input[name=name]').val(); 
-        var user_email      = $('input[name=email]').val();
-		var user_message    = $('textarea[name=message]').val();
-        
-        //simple validation at client's end
-        var proceed = true;
+        var user_name       = $('input[name=name]').val(),
+       		user_email      = $('input[name=email]').val(),
+			user_message    = $('textarea[name=message]').val(),
+        	proceed = true,//simple validation at client's end
+        	output = '';
+
         if(user_name===""){ 
             proceed = false;
         }
@@ -68,10 +130,10 @@ jQuery(function($) {'use strict';
         if(proceed) 
         {
             //data to be sent to server
-            post_data = {'userName':user_name, 'userEmail':user_email, 'userMessage':user_message};
+            var post_data = {'userName':user_name, 'userEmail':user_email, 'userMessage':user_message};
             
             //Ajax post data to server
-            $.post('contact_me.php', post_data, function(response){  
+            $.post('/php/contact_me.php', post_data, function(response){  
 
                 //load json data from server and output message     
 				if(response.type == 'error')
@@ -87,8 +149,12 @@ jQuery(function($) {'use strict';
 				
 				$("#result").hide().html(output).slideDown();
             }, 'json');
-			
         }
+        else{
+        	var output = '<div class="alert-danger">Aby wysłać do nas wiadomość wypełnij wszystkie pola formularza!</div>';
+        	$("#result").hide().html(output).slideDown();
+        }
+
     });
     
     //reset previously set border colors and hide all message on .keyup()
@@ -139,7 +205,7 @@ jQuery(function($) {'use strict';
 		// else {
 		//     location.hash = hash;
 		// }
-       	event.preventDefault();
+       	// event.preventDefault();
 
 		$('#navigation').affix({offset: {top: 50} });
 		

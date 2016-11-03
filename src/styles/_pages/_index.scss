@@ -1,3 +1,38 @@
+.cookies{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 999;
+	width: 100%;
+	background-color: rgba($color1, 0.8);
+	padding: 3vw;
+	color: $color0;
+	// text-align: center;
+	.backdrop{
+
+		p{ color: $color0; }
+		a{ 
+			text-decoration: underline;
+			&:hover{
+				color: $color4;
+			}
+		}
+		.close-btn{
+			display: block;
+			background-color: $color4;
+			color: $color0;
+			margin: 20px auto 0;
+			width: 200px;
+			padding: 10px;
+			text-decoration: none;
+			text-align: center;
+			&:hover{
+				background-color: $color6;
+				color: $color4;
+			}
+		}
+	}
+}
 
 #bg-paralax{
 	background-position: center bottom;
@@ -129,6 +164,22 @@ footer p>a:hover{
 			margin: 40px 0;
 		}
 	}
+	#facts{
+		.number-counters > .col-xs-12{
+			height: 50%;
+			.counters-item{
+				height: 100%;
+			}
+		}
+	}
+	.work-filter {
+		max-width: 320px;
+		margin: 0 auto 50px;
+		ul li{
+			width: 49%;
+			margin-bottom: 20px;
+		}
+	}
 }
 @include respond-to(tablet){
 	
@@ -150,6 +201,15 @@ footer p>a:hover{
 	.info-section{
 		.block:nth-child(1){
 			padding: 90px 5% 20px;
+		}
+	}
+
+	#facts{
+		.number-counters > .col-xs-12{
+			height: 100%;
+			.counters-item{
+				height: 100%;
+			}
 		}
 	}
 }
