@@ -1125,6 +1125,10 @@ ul.top-right li a:hover.instagram{
 	color:$color4;
 }
 
+.r-test ul.r-feature li a{
+	text-decoration: underline;
+}
+
 .r-test .screens{
 	margin-top:30px;
 	color: $responsive-icons-color;
@@ -1710,6 +1714,7 @@ ul.top-right li a:hover.instagram{
 /* ------------ Testinomials ------------ */
 #testinomial{
 	background:url($testinomial-image-bg) no-repeat;
+	background-position: center center;
 	color:#fff;
 }
 #testinomial h2{ color:$testinomial-title-color; }
@@ -2497,6 +2502,7 @@ ul.category li a .date{
 .r-test ul.r-feature li {
 font-size: 12px;
 }
+
 .we-do .do-wrap, .white-box {
 margin-bottom:30px;
 }

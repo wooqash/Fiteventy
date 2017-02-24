@@ -33,6 +33,10 @@
 		}
 	}
 }
+video{
+	max-width: 100%;
+	height: auto;
+}
 
 #bg-paralax{
 	background-position: center bottom;
@@ -140,7 +144,12 @@ ul.top-right li a{
 .dot2{
 	background-color: $spinner-dot2;
 }
-
+.annotation{
+	margin: 5px;
+	font-size: 9px;
+    font-style: italic;
+    text-align: right;
+}
 footer p>a:hover{
 	color: $footer-breadcrumbs-hover-link-color;
 }
@@ -215,7 +224,15 @@ footer p>a:hover{
 }
 
 @include respond-to(desktop){
+	#experties .logo-row{
+		display: table;
+		height: 94px;
+		vertical-align: middle;
+	}
 	#experties .logo-box{
 		margin-bottom: 0;
+		display: table-cell;
+		float: none;
+
 	}
 }

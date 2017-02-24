@@ -304,7 +304,7 @@ jQuery(function($) {'use strict';
 
 //Parallax effects
 $('#bg-paralax ').parallax("50%", 0.3);
-$('#testinomial').parallax("50%", 0.2);
+// $('#testinomial').parallax("50%", 0.2);
 $('.text-rotator').parallax("50%", 0.2);
 
 

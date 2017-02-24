@@ -190,6 +190,25 @@ module.exports = function(config, dirs) {
     }
   });
 
+  config.customDirs.items.push({
+    name: 'video',  //optional, displayed in the console during watch
+    src: dirs.src.main + 'video/**' + '/*.*',
+    dest: dirs.dist.main + 'video/',  //set to null to just watch the dir without copying (e.g. external backend views)
+    inject: {
+      //an object { dirInfo } (with this config) available as this.taskData from within inject functions
+      src: true,   //function must return: a stream (if canceled) or a glob array passed to the src
+      limit: true, //gulp-changed plugin
+      dest: true,
+
+      //watch task, receives undefined and { id, dirInfo } with id and definition as a second parameter
+      watch: true,
+
+      //clean task, receives current glob to delete (see the clean task injector docs) and { dirInfo } with definition object as a second parameter
+      //not needed to disable if "dest" is null
+      clean: true
+    }
+  });
+
   /********************
     Lint
   *********************/
